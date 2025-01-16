@@ -23,7 +23,7 @@ adb root
 adb remount
 adb push 9a5ba575.0 /system/etc/security/cacerts
 ```
-# 4 Changing Permessions For Certificate 
+# 4 Changing Permissions For Certificate 
 ```bash
 adb shell
 / # cd system/etc/security/cacerts
